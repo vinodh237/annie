@@ -28,3 +28,13 @@
 }
 
 .btn-primary,
+.btn-secondary { color: var(--white); }
+
+.btn-secondary {
+  background-color: var(--jet);
+  --shadow-color: var(--orange-red);
+  --hover-bg: var(--orange-red);
+  --hover-shadow-color: var(--jet);
+}
+
+.btn-tertiary {
