@@ -38,3 +38,11 @@
 }
 
 .btn-tertiary {
+  color: var(--jet);
+  background-color: var(--maximum-yellow-red);
+  --shadow-color: var(--orange-red);
+  --hover-bg: var(--orange-red);
+  --hover-shadow-color: var(--maximum-yellow-red);
+}
+
+.btn-tertiary:is(:hover, :focus-visible) { color: var(--white); }
