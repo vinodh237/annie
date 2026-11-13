@@ -8,3 +8,13 @@
 
 
 
+
+
+.card {
+  box-shadow: 0 0 0 var(--jet);
+  display: flex;
+  transition: var(--transition-1);
+}
+
+.card-md:is(:hover, :focus-within) { box-shadow: 5px 5px 0 var(--jet); }
+
