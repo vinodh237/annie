@@ -18,3 +18,13 @@
 
 .card-md:is(:hover, :focus-within) { box-shadow: 5px 5px 0 var(--jet); }
 
+:is(.card-lg, .card-sm):is(:hover, :focus-within) {
+  box-shadow: 3px 3px 0 var(--jet);
+}
+
+.card,
+.card-media { border: 2px solid var(--jet); }
+
+.card-lg { padding: 25px; }
+
+.card-md { padding: 30px; }
